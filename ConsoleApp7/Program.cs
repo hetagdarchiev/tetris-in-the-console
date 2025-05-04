@@ -178,7 +178,7 @@ public class GameField
         return FallenSquares.Any(s => s.X == x && s.Y == y);
     }
 
-    public void NovayaFugure()
+    public void newFugure()
     {
         Random random = new Random();
         string[] figureTypes = { "I", "J", "L", "O", "S", "T", "Z" }; //тут создаётся случайная фигура
@@ -277,7 +277,7 @@ public class GameField
     public void GameLoop()
     {
         Console.CursorVisible = false;
-        NovayaFugure();
+        newFugure();
 
         while (true)
         {
@@ -305,7 +305,7 @@ public class GameField
                             // Фигура достигла дна или другой фигуры
                             FallenSquares.AddRange(CurrentFigure.Squares);
                             checkerDown();
-                            NovayaFugure();
+                            newFugure();
                         }
                         break;
                     case ConsoleKey.UpArrow:
@@ -322,7 +322,7 @@ public class GameField
                 // Фигура достигла дна или другой фигуры
                 FallenSquares.AddRange(CurrentFigure.Squares);
                 checkerDown();
-                NovayaFugure();
+                newFugure();
             }
 
             // Проверка окончания игры
