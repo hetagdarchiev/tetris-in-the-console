@@ -129,7 +129,7 @@ public class Figure
             }
         }
 
-        // Двигаем вправо
+        // Двигаем на право
         foreach (var square in Squares)
         {
             square.X++;
