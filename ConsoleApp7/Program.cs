@@ -70,7 +70,7 @@ public class Figure
             int dx = square.X - CenterSquare.X;
             int dy = square.Y - CenterSquare.Y;
 
-            // Поворот на 90 градусов по часовой стрелке: (x, y) → (y, -x)
+            // Поворот
             int newX = CenterSquare.X + dy;
             int newY = CenterSquare.Y - dx;
 
@@ -90,7 +90,6 @@ public class Figure
             int dx = square.X - CenterSquare.X;
             int dy = square.Y - CenterSquare.Y;
 
-            // Поворот на 90 градусов по часовой стрелке
             square.X = CenterSquare.X + dy;
             square.Y = CenterSquare.Y - dx;
         }

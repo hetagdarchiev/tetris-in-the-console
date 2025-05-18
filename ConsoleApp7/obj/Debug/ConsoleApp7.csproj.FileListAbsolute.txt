@@ -1,0 +1,7 @@
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\bin\Debug\ConsoleApp7.exe.config
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\bin\Debug\ConsoleApp7.exe
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\bin\Debug\ConsoleApp7.pdb
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.AssemblyReference.cache
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.CoreCompileInputs.cache
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\obj\Debug\ConsoleApp7.exe
+F:\ItProgramming\C# progects\Console\tetris-in-the-console-master\ConsoleApp7\obj\Debug\ConsoleApp7.pdb
